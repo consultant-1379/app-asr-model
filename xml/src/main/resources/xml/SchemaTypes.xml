@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schemaTypes xmlns="http://www.ericsson.com/SchemaTypes">
+	<schemaType>
+		<name>correlation</name>
+		<idLength>0</idLength>       <!-- in bits -->
+		<idStartPos>0</idStartPos>   <!-- in bits -->
+		<idInEvent>true</idInEvent> <!-- true if the event ID is included in the event as a field -->
+		<xmlFiles>
+			<path>xml/correlation/CorrelatedEvents_PA1.xml</path>
+		</xmlFiles>
+	</schemaType>
+
+</schemaTypes>
